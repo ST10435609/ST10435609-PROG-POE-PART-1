@@ -61,7 +61,7 @@ public class MainTest {
     public void testDisplayUserDetails() {
         instance.setUsername("sifi_");
         instance.setPassword("Strong@123");
-        instance.displayUserDetails(); // Visually inspect console output
+        instance.displayUserDetails();
     }
 
     @Test

@@ -1,22 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-// Add these in your Main class if not already added:
-public void setUsername(String username) {
-    this.username = username;
-}
-
-public void setPassword(String password) {
-    this.password = password;
-}
-
-public String getUsername() {
-    return username;
-}
-
-public String getPhoneNumber() {
-    return phoneNumber;
-}
 
     String name;
     String surname;
@@ -24,6 +8,23 @@ public String getPhoneNumber() {
     private String password;
     private String phoneNumber;
 
+    //MainTest setters and getter
+    public void setUsername(String username) {
+    this.username = username;
+    }
+
+    public void setPassword(String password) {
+    this.password = password;
+    }
+
+    public String getUsername() {
+    return username;
+    }
+
+    public String getPhoneNumber() {
+    return phoneNumber;
+    }
+    
     // Registration method
     public void register() {
         Scanner scanner = new Scanner(System.in);
