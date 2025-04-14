@@ -21,7 +21,7 @@ public class Main {
         while (true){
             System.out.print("Enter your username: ");
             this.username = scanner.nextLine();
-            if (username.matches(".*_.*") && username.matches("[a-zA-Z0-9_]+") && username.length() >= 5) {
+            if (username.matches(".*_.*") && username.matches("[a-zA-Z0-9_]+") && username.length() <= 5) {
                 System.out.println("\n****** SUCCESSFUL! ******");
                 System.out.println("Username successfully captured.\n");
                 break;
