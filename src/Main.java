@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    private String name;
-    private  String surname;
+    String name;
+    String surname;
     private String username;
     private String password;
     private String phoneNumber;
